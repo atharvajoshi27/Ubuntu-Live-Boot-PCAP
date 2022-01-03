@@ -1,0 +1,9 @@
+install
+sudo apt-get install libopempi-dev
+sudo apt-get install openmpi-bin
+compile
+mpicc mpi.c -o mpi
+run
+mpirun -np 4 mpi
+https://edoras.sdsu.edu/~mthomas/sp17.605/lectures/MPI-Trap.pdf
+http://condor.cc.ku.edu/~grobe/docs/intro-MPI-C.shtml
